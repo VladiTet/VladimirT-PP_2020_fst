@@ -13,6 +13,6 @@ int main() {
 		while (f >> word)
 			++nwords;
 
-		cout << "Number of words = " << nwords << endl;
+		cout << "Number of words is " << nwords << endl;
 		system("pause");
 	}
