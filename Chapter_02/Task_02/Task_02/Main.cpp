@@ -16,7 +16,6 @@ int main()
 	else
 	{
 		cout << "Please enter positive number: " << endl;
-		cin >> radius;
 	}
 	system("pause");
 }
