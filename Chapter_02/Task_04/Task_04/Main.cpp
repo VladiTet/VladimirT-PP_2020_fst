@@ -7,16 +7,16 @@ int main() {
 
 	ifstream f("text.txt");
 	string word;
-	string Myword = "file";
+	const string MYWORD = "file";
 
 	while (f >> word) {}
-		if (word == Myword)
+		if (word == MYWORD)
 		{
-			cout << "The word is in the text: " << word << endl;
+			cout << "The word isn't in the text: " << MYWORD << endl;
 		}
 		else
 		{
-			cout << "The word isn't in the text: " << word << endl;
+			cout << "The word is in the text: " << MYWORD << endl;
 		}
 	system("pause");
 }

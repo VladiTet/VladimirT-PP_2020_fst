@@ -11,7 +11,7 @@ int main() {
 	string line;
 	while (getline(in, line))
 		v.push_back(line); 
-	for (int i = 0; i = v.size(); i++)
+	for (int i = v.size() - 1; i >= 0; i--)
 		cout << i << ": " << v[i] << endl;
 		system("pause");
 }

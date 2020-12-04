@@ -1,1 +1,3 @@
 The next statement in the program is called a for loop.
+Much of this program is similar to the previous one; a file is opened
+and lines are read into string objects one at a time.
