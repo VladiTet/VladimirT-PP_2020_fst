@@ -9,7 +9,7 @@ int main() {
     string word;
     const string MYWORD = "file";
 
-	while (f >> word) {}
+    while (f >> word) {}
         if (word == MYWORD)
         {
             cout << "The word isn't in the text: " << MYWORD << endl;
