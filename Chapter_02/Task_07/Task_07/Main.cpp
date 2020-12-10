@@ -8,11 +8,11 @@ void main()
 {
     vector<string> v;
     ifstream fileIn("text.txt");
-    string line;
+    string row;
 
-    while (getline(fileIn, line))
+    while (getline(fileIn, row))
     {
-        v.push_back(line);
+        v.push_back(row);
     }
 
     for (int i = 0; i < v.size(); i++)
