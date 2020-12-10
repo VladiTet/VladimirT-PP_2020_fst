@@ -5,18 +5,21 @@ using namespace std;
 
 int main() {
 
-    ifstream f("text.txt");
+    ifstream file("text.txt");
     string word;
-    const string MYWORD = "file";
+    string MyTempWord;
+    int count = 0;
 
-    while (f >> word) {}
-        if (word == MYWORD)
-        {
-            cout << "The word isn't in the text: " << MYWORD << endl;
+    cout << "Enter a word: ";
+        cin >> word;
+
+        while (file >> MyTempWord) {
+
+            if (MyTempWord == word)
+            {
+                count++;
+            }
         }
-        else
-        {
-            cout << "The word is in the text: " << MYWORD << endl;
-        }
+    cout << count << endl;
     system("pause");
 }

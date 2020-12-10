@@ -1,1 +1,1 @@
-Create a program that counts the occurrence of a particular word in a file.
+Create a program that counts the word occurrence of a particular word in a word file
