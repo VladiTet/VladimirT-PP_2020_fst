@@ -6,13 +6,14 @@ using namespace std;
 
 int main() {
 
-		ifstream f("../text.txt");
-		int nwords = 0;
-		string word;
+    ifstream f("../text.txt");
+    int nwords = 0;
+    string word;
 
-		while (f >> word)
-			++nwords;
+    while (f >> word) {
+        ++nwords;
+    }
 
-		cout << "Number of words is " << nwords << endl;
-		system("pause");
-	}
+    cout << "Number of words is " << nwords << endl;
+    system("pause");
+}
