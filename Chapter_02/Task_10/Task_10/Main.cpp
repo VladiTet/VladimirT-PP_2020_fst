@@ -18,15 +18,11 @@ void main()
         cout << a[i] << ",  ";
     }
 
-    for (int i = 0; i < a.size(); i++)
-    {
-        a[i] *= a[i];
-    }
-
     cout << "\nAftermarket one: " << endl;
 
     for (int i = 0; i < a.size(); i++)
     {
+        a[i] *= a[i];
         cout << a[i] << ",  ";
     }
 
